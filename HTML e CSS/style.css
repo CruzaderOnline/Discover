@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*
+    background-image: url(./projeto/assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    
+    Os itens acima podem ser alinhados em uma só linha de código através da seguinte nomenclatura:
+    background: color image repeate position/size */
+    background: url(./projeto/assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+#container {
+    width: 360px;
+    margin: 56px auto 0px auto
+}
+
+#profile {
+    text-align: center;
+    padding: 24px;
+
+}
+
+#profile img {
+    width: 112px;
+    /*Geralmente, não é preciso definir uma altura da imagem pois ela segue o conteúdo da página */
+}
+
+#profile p {
+    font-weight: 500;
+    /* Por padrão, o tamanho da fonte é de 16px, então não é necessário inserir esse valor */
+    line-height: 24px;
+    margin-top: 8px;
+}
