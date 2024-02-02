@@ -15,11 +15,11 @@ const img = document.querySelector('#profile img')
 // substituir a imagem
 if(html.classList.contains("light")) {
     // se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute("alt", "Foto de Mayk Brito sorrindo, usando óculos escuros e casaco preto, barba e fundo gradiente rosa e azul.")
+    img.setAttribute("src", "./assets/avatar-cruz-light.png")
+    img.setAttribute("alt", "Artwork of Cruz wearing a red shirt, sunglasses and headset on an ivory background.")
     } else {
     // se tiver sem light mode, manter a imagem normal
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar-cruz.png")
 
     }
 }
